@@ -1,0 +1,2928 @@
+/* GEBERAL SETINGS START ------------------------------------------------ */
+body {
+  font-family: "lato", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #1E212C;
+}
+
+
+/* General Button One */
+.general_button_one {
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 0px 40px;
+border-radius: 4px;
+background:linear-gradient(45deg, #F75E05 2.05%, #FF3F3A 100%);
+color: #fff;
+font-size: 16px;
+font-weight: 700;
+line-height: 52px;
+letter-spacing: 0.5px;
+white-space: nowrap;
+transition: all .3s;
+}
+
+.general_button_one:hover {
+  transform: scale(1.05);
+}
+
+/* General Button Empty */
+.general_button_empty {
+  border: 1px solid transparent;
+  border-image: linear-gradient(45deg, #F75E05 2.05%, #FF3F3A 100%);
+  border-image-slice: 1;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Main General Settings for Section-------------------------------------- */
+.main_general_settings_for_section {
+  max-width: 1260px;
+  padding: 0px 15px;
+  margin: 0px auto;
+}
+
+
+/* Main Sections Titel Genaeral Settings----------------------------------- */
+.main_sections_titel_gs { 
+  display: inline-block;
+}
+
+.line_one_sec_titel {
+  text-transform: uppercase;
+  line-height: 150%;
+  letter-spacing: 1px;
+
+}
+
+.line_two_sec_titel {
+  font-size: 46px;
+  line-height: 130%;
+  font-weight: 900;
+}
+
+.titel_positon_senter {
+  text-align: center;
+}
+
+/* GEBERAL SETINGS END --------------------------------------------------- */
+
+
+
+/* WEBSITE HEADER START --------------------------------------- */
+.website_header {
+  width: 100%;
+  min-height: 100%;
+  overflow: hidden;
+  background: url("../imges/later/decor/shapes-bg.svg") no-repeat 50% 50% / cover , linear-gradient(45deg, rgb(245, 93, 5, 0.2) 2.05%, rgb(255, 63, 58, 0.2) 100%);
+}
+
+.burger_manue {
+  display: none;
+}
+
+.header_border {
+  max-width: 1260px;
+  min-height: 100vh;
+  padding: 0px 15px;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header Block Top ------------------------------------------------------- */
+.header_block_top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* Header Block Top Logo--------------------------------------------------- */
+.header_block_top_logo {
+  padding-right: 60px;
+}
+
+/* Header Block Top Navigation-----------------------------------------------*/
+.header_block_top_navigation{
+  margin-right: auto;
+
+}
+
+.header_block_top_navigation_list {
+  display: flex;
+  
+}
+
+.header_block_top_navigation_list_link {
+padding-right: 40px;
+transition: all 0.3s;
+white-space: nowrap;
+}
+
+.header_block_top_navigation_list_link:last-child{
+  padding-right: 0px;
+}
+
+.header_block_top_navigation_list_link:hover{
+  color:#FF3F3A;
+}
+
+/*Header Block Top Buttons-------------------------------------------------  */
+
+.header_block_top_buttons{
+display: flex;
+align-items: center;
+
+}
+
+.header_block_top_buttons_contaner_one {
+  padding-right: 36px;
+}
+
+.header_block_top_buttons_contaner_two{
+  padding-left: 28px;
+  position: relative;
+  white-space: nowrap;
+}
+
+.header_block_top_buttons_contaner_two::before {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: url(../imges/mydownloads/account.svg) no-repeat;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+
+.header_block_top_buttons_contaner_two_button {
+  font-size: 16px;
+  font-weight: 700;
+  transition: all 0.3s;
+  line-height: 25.6px;
+
+}
+
+.header_block_top_buttons_contaner_two_button:hover{
+  color: #FF3F3A;
+}
+
+/* Header Block Center-------------------------------------------------- */
+.header_block_center {
+  display: flex;
+  justify-content: space-between;
+  margin: auto 0;
+  
+}
+
+/* Header Block Center Left Part ---------------------------------------*/
+.header_block_center_left_part {
+  color: #1E212C;
+}
+
+/* Header Block Center Left Part Play Showreel-------------------------- */
+.header_block_center_left_part_play_showreel {
+  display: flex;
+  align-items: center;
+  transition: all 0.3s;
+}
+
+.header_block_center_left_part_play_showreel_img{
+  margin-top: 15px;
+  border-radius: 50%;
+  transition: all 0.3s;
+
+}
+
+.header_block_center_left_part_play_showreel_img:hover {
+  box-shadow: 0 0 0 16px rgb(255, 63, 58, 0.12);
+}
+
+.header_block_center_left_part_play_showreel_text{
+  margin-top: 15px;
+  padding-left: 16px;
+  font-size: 14px;
+
+}
+
+/* Header Block Center Left Part Title ----------------------------------*/
+.header_block_center_left_part_title {
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 130%;
+  letter-spacing: 1px;
+  margin-top: 40px;
+  max-width: 470px;
+
+}
+
+/* Header Block Center Left Part Buttons ------------------------------- */
+.header_block_center_left_part_buttons {
+  display: flex;
+  margin-top: 60px;
+}
+
+.header_block_center_left_part_button_about_us {
+  margin-right: 24px;
+}
+
+/* Header Block Center Right Part --------------------------------------*/
+
+
+/* Heder Block Bottom -------------------------------------------------- */
+.header_block_bottom {
+  margin-bottom: 80px;
+}
+
+.heder_block_bottom_list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #1E212C;
+}
+
+.header_block_bottom_list_item {
+  display: flex;
+  align-items: center;
+}
+
+.heder_block_bottom_list_points {
+  background: linear-gradient(45deg, #F75E05 2.05%, #FF3F3A 100%);
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin: 12px;
+}
+
+.header_block_bottom_list_item span {
+  font-size: 46px;
+  font-weight: 900;
+  line-height: 130%;
+  margin-right: 12px;
+  vertical-align: middle;
+}
+
+/* WEBSITE HEADER END ----------------------------------------*/
+
+
+/* WEBSITE MAIN START------------------------------------------ */
+.website_main{
+  width: 100%;
+  overflow: hidden;
+}
+
+/* About Us" Section - Start--------------------------------------*/
+.about_us_section {
+  margin-top: 179px;
+  position: relative;
+}
+
+.about_us_section::after {
+  content: "";
+  display: block;
+  width: 188px;
+  height: 147px;
+  background: url(../imges/main/about_us/img_background.svg) no-repeat 0 0 / 100% 100%;
+  position: absolute;
+  top: -120px;
+  left: 1300px;
+}
+
+/* About Us Block One------------------------------------------- */
+.about_us_block_one {
+  display: flex;
+
+}
+
+/* About Us Block One Part Left------------------------------------------ */
+.about_us_block_one_part_left {
+  width: 50%;
+
+}
+
+/* About Us Block One Part Left Text -------------------------------------*/
+.block_one_part_left_text_one {
+  margin-top: 48px;
+  max-width: 600px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.block_one_part_left_text_two {
+  margin-top: 24px;
+  max-width: 600px;
+  color: #424551;
+  font-weight: 400;
+  line-height: 160%;
+
+}
+/* About Us Block One Part Left Buttons ----------------------------------*/
+.about_us_block_one_part_left_buttons {
+  margin-top: 60px;
+  display: flex;
+
+}
+
+.explore_events_btn {
+  margin-right: 20px;
+}
+
+/* About Us Block One Part Right----------------------------------------- */
+.about_us_block_one_part_right {
+  width: 50%;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+
+
+/* About Us Block Two------------------------------------------- */
+.about_us_block_two {
+  margin-top: 179px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+/* About Us Block Two Part Left --------------------------------*/
+.about_us_block_two_part_left {
+  width: 810px;
+  height: 500px;
+  border-radius: 4px;
+  overflow: hidden
+
+}
+
+.about_us_block_two_part_left img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* About Us Block Two Part Right --------------------------------*/
+.about_us_block_two_part_right {
+  display: flex;
+  align-items: center;
+
+}
+.about_us_block_two_part_right_list {
+  
+}
+
+.about_us_block_two_part_right_list_line {
+  font-size: 18px;
+  line-height: 150%;
+  margin-left: 15px;
+  white-space: nowrap;
+}
+
+.about_us_block_two_part_right_list_line span {
+  color: #FF3F3A;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 130%;
+  letter-spacing: 1px;
+  vertical-align: middle;
+  margin-right: 16px;
+}
+
+
+/* About Us" Section - End -------------------------------------- */
+
+
+
+/* "Our Main Directions" Section - Start ------------------------*/
+.our_main_directions {
+  margin-top: 161px;
+  position: relative;
+}
+
+.our_main_directions::before {
+  content: "";
+  display: block;
+  width: 136px;
+  height: 115px;
+  background: url(../imges/main/our_main_directions/background/bg_decore_right.svg) no-repeat 0 0 ;
+  position: absolute;
+  top: -20px;
+  left: -165px;
+}
+
+.our_main_directions::after {
+  content: "";
+  display: block;
+  width: 242px;
+  height: 242px;
+  background: url(../imges/main/our_main_directions/background/bg_decore_left.svg) no-repeat 0 0;
+  position: absolute;
+  top: 330px;
+  left: 1440px;
+}
+
+
+/* "Our Main Directions" - Filter -------------------------------- */
+.our_main_directions_filter {
+  margin-top: 79px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.our_main_directions_filter_list {
+
+}
+
+.our_main_directions_filter_list_item {
+  line-height: 160%;
+  font-size: 16px;
+  padding: 1px 8px;
+  border: 1px solid #9A9CA5;
+  border-radius: 4px;
+  margin-right: 45px;
+  margin-bottom: 10px;
+  color: #9A9CA5;
+  transition: all 0.3s;
+  white-space: nowrap;
+
+}
+
+.our_main_directions_filter_list_item:last-child {
+  margin-right: 0px;
+}
+
+.our_main_directions_filter_first_buttom {
+  color: #fff;
+  background: linear-gradient(45deg, #F75E05 2.05%, #FF3F3A 100%);
+  border: none;
+}
+
+.our_main_directions_filter_list_item:hover {
+  transform: scale(1.05);
+}
+
+/* "Our Main Directions" - Courses --------------------------------------- */
+.our_main_directions_courses {
+  display: grid;
+  grid-template: 1fr 1fr / 1fr 1fr 1fr;
+  grid-gap: 30px 30px ;
+  margin-top: 57px;
+}
+
+.main_directions_courses_item {
+  width: 390px;
+  height: 420px;
+  border: 1px solid #E5E8ED;
+  border-radius: 4px;
+  background: #fff;
+}
+
+
+.main_directions_courses_item:hover {
+  box-shadow: 0px 4px 4px -4px rgba(30, 33, 44, 0.03), 0px 12px 10px -6px rgba(154, 156, 165, 0.04), 0px 30px 24px -10px rgba(154, 156, 165, 0.05), 0px 80px 80px -20px rgba(154, 156, 165, 0.08);
+
+}
+
+.courese_img {
+  max-width: 100%;
+  max-height: 100%;
+  overflow: hidden;
+}
+
+.courese_button {
+  margin-top: 25px;
+  margin-left: 48px;
+  padding: 1px 8px;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 16px;
+  line-height: 160%;
+}
+
+.btn_marketing {
+  background: #03CEA4;
+}
+
+.btn_management {
+  background: #5A87FC;
+}
+
+.btn_hr_recruting{
+  background: #F89828;
+}
+
+.btn_design{
+  background: #F52F6E;
+}
+
+.btn_development {
+  background: #7772F1;
+}
+
+.courese_text {
+  margin-top: 21px;
+  margin-left: 48px;
+  font-weight: 400;
+  line-height: 160%;
+  color: #787A80;
+}
+
+.courese_link {
+  display: block;
+  margin-top: 20px;
+  margin-left: 48px;
+  line-height: 160%;
+}
+
+.courese_link:hover {
+  color: #FF3F3A;
+}
+
+
+.courese_link>span {
+  color: #FF3F3A;
+}
+
+.empty_space_for_course {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+
+.empty_space_contaner{
+  text-align: center;
+  width: 242px;
+  color: #424551;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+/* Main Section - "Our Main Directions" End -------------------------- */
+
+/* "Createx Certificate" Section - Start -----------------------------*/
+.createx_certificate {
+  margin-top: 178px;
+  position: relative;
+}
+
+.createx_certificate::before {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 60px;
+  background: url(../imges/main/createx_certificate/background_createx_certificate/background_createx_certificate_img_one.svg) no-repeat 0 0 / 100% 100%;
+  position: absolute;
+  top: -40px;
+  left: -110px;
+}
+
+.createx_certificate::after {
+  content: "";
+  display: block;
+  width: 143px;
+  height: 105px;
+  background: url(../imges/main/createx_certificate/background_createx_certificate/background_createx_certificate_img_two.svg) no-repeat 0 0 / 100% 100%;
+  position: absolute;
+  top: 485px;
+  left: 895px;
+}
+
+
+/* Createx Certificate" Block One -------------------------------------- */
+.createx_certificate_block_one {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+/* Createx Certificate" Block One Part Left -------------------------- */
+.createx_certificate_block_one_part_left {
+  margin-right: 5px;
+}
+
+/* "Createx Certificate" Block One Part Left Titel --------------------- */
+.createx_certificate_titel {
+  max-width: 392px;
+}
+/* "Createx Certificate" Block One Part Left Text --------------------- */
+.createx_certificate_block_one_part_left_text {
+  margin-top: 48px;
+  margin-right: 15px;
+  max-width: 390px;
+  font-weight: 400;
+  line-height: 160%;
+  color: #424551;
+}
+
+/* "Createx Certificate" Block One Part Left Pictures --------------------- */
+.createx_certificate_block_one_part_left_pictures_contaner {
+  margin-top: 32px;
+}
+
+.createx_certificate_block_one_part_left_pictures_img {
+  margin-right: 40px;
+}
+
+.createx_certificate_block_one_part_left_pictures_img:last-child {
+  margin-right: 0px;
+}
+
+/* Createx Certificate" Block One Part Right-------------------------------------- */
+.createx_certificate_block_one_part_right {
+  width: 705px;
+  height: 500px;
+  border-radius: 4px;
+  border: 1px solid #E5E8ED;
+  box-shadow: 0px 4px 4px -4px rgba(30, 33, 44, 0.05), 0px 12px 10px -6px rgba(154, 156, 165, 0.08), 0px 30px 24px -10px rgba(154, 156, 165, 0.10), 0px 80px 80px -20px rgba(154, 156, 165, 0.16);
+  overflow: hidden;
+}
+
+.createx_certificate_block_one_part_right_img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+
+}
+
+/* "Createx Certificate" Section - End -------------------------------*/
+
+
+/* "Meet our team" Section Start----------------------------------- */
+.meet_our_team {
+  margin-top: 120px;
+  margin-bottom: 100px;
+  background-color: #F4F5F6;
+
+}
+
+/* "Meet our team" Block One----------------------------------- */
+.team_block_one {
+  display: flex;
+}
+
+/* "Meet our team" Block One Titel----------------------------------- */
+.team_block_one_titel {
+  width: 50%;
+}
+
+/* "Meet our team" Block One Slider Buttoms----------------------------------- */
+.team_block_one_buttoms_slider {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+
+.slider_arrow {
+  display: block;
+  line-height: 0;
+  border-radius: 50%;
+  position: relative;
+  z-index:0;
+
+}
+
+.slider_arrow path {
+  transition: all .3s;
+} 
+
+.slider_arrow:hover path {
+  fill: #fff;
+  
+}
+
+.slider_arrow::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  background-color: #FF3F3A;
+  z-index: -1;
+  transition: all .3s;
+}
+
+.slider_arrow:hover::before {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.slider_next {
+  margin-right: 24px;
+}
+.slider_prev {
+}
+
+
+/* "Meet our team" Block Two ---------------------------------------*/
+.team_block_two {
+  margin-top: 60px;
+}
+
+/* Meet our team" Block Two Team Slader --------------------------*/
+.team_block_two_team_slader .slick-list{
+  margin-left: -30px;
+
+}
+
+.team_block_two_team_slader:hover {
+}
+/* Slader Card  ---------------------------------------*/
+
+.team_slader_card {
+  border-radius: 4px;
+  margin-bottom: 16px;
+  overflow: hidden;
+  margin-left: 30px;
+}
+
+.team_slader_card_photo {
+  height: 340px;
+  overflow: hidden;
+  position: relative;
+  
+}
+
+.team_slader_card_photo img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+  
+}
+
+.team_slader_card_info {
+  margin-top: 16px;
+  text-align: center;
+}
+
+.team_slader_card_info_name {
+  color: #424551;
+  font-size: 20px;
+  line-height: 150%;
+}
+
+.team_slader_card_info_positon {
+  color: #787A80;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+.team_slader_card_info_social_media_list_two {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 20px;
+  background: linear-gradient(180deg, rgba(30, 33, 44, 0.00) 43.90%, rgba(30, 33, 44, 0.03) 55.21%, rgba(30, 33, 44, 0.33) 68.73%, rgba(30, 33, 44, 0.56) 76.17%, rgba(30, 33, 44, 0.77) 83.75%, rgba(30, 33, 44, 0.92) 91.49%, #1E212C 100%);
+  transform: translateY(40%);
+  transition: all .3s;
+}
+
+.team_slader_card_info_social_media_list_two:hover {
+  transform: translateY(0%);
+}
+
+.card_info_social_media_link {
+  margin-right: 12px;
+  
+}
+
+.card_info_social_media_link:last-child{
+  margin-right: 0px;
+}
+
+.card_info_social_media_link path {
+  transition: all .3s;
+}
+
+.card_info_social_media_link:hover path {
+  fill: #03CEA4;
+}
+
+/* "Meet our team" Section End----------------------------------- */
+
+/* Testimonials" Section - Start -------------------------------- */
+.testimonials{
+  margin-top: 180px;
+}
+
+/* Testimonials Block One------------------------------------------ */
+.testimonials_block_one {
+}
+
+
+/* Testimonials Block Two-------------------------------------------- */
+.testimonials_block_two {
+  margin-top: 60px;
+
+}
+
+/* Testimonials Block Two Slider -------------------------------------*/
+
+.testimonials_contaner_for_slider {
+  position: relative;
+}
+
+.testimonials_slider {
+  max-width: 1020px;
+  max-height: auto;
+  margin: 0 auto;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px -4px rgba(30, 33, 44, 0.03), 0px 12px 10px -6px rgba(154, 156, 165, 0.04), 0px 30px 24px -10px rgba(154, 156, 165, 0.05), 0px 80px 80px -20px rgba(154, 156, 165, 0.08);
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.testimonials_slide_border {
+}
+
+/* Testimonials Slide */
+.testimonials_slide {
+  margin: 64px 105px;
+}
+
+/* Testimonials Slide Part One ---------------------------------*/
+.testimonials_slide_part_one {
+  display: flex;
+  align-items: flex-start;
+}
+
+.testimonials_slide_part_one_img{
+  margin-right: 30px;
+}
+
+.testimonials_slide_part_one_text {
+  width: auto;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #424551;
+
+}
+
+/* Testimonials Slide Part Two---------------------------------*/
+.testimonials_slide_part_two {
+  margin-top: 24px;
+  margin-left: 58px;
+}
+
+.testimonials_slide_part_two_contaner {
+  display: flex;
+}
+
+.testimonials_slide_part_two_photo {
+  margin-right: 20px;
+}
+
+.testimonials_slide_part_two_name {
+  margin: auto 0;
+}
+
+.testimonials_slide_part_two_name_surname {
+  color: #1E212C;
+}
+
+.testimonials_slide_part_two_name_position {
+  color: #787A80;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+
+/*  Testimonials Slider Buttoms -------------------------------- */
+.testimonials_arrow {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  transition: all .3s;
+}
+
+
+.testimonials_arrow::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  background: #FF3F3A;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  z-index: -1;
+  transition: all .3s;
+}
+
+
+
+.testimonials_next {
+  left: 0;
+  z-index: +5;
+}
+.testimonials_next::before {
+  left: 25%;
+}
+
+.testimonials_prev {
+  right: 0;
+  justify-content: flex-end;
+  z-index: +5;
+}
+
+.testimonials_prev::before {
+  right: -70%;
+}
+
+
+.testimonials_arrow:hover path{
+  fill: #fff;
+}
+.testimonials_arrow:hover:before {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+/* Testimonials Slider Dots-------------------------------------- */
+.testimonials_slider_dots .slick-dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.testimonials_slider_dots li {
+  margin-right: 12px;
+}
+
+.testimonials_slider_dots li:last-child{
+  margin-right: 0px;
+}
+
+.testimonials_slider_dots button {
+  font-size: 0px;
+  background-color: transparent;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.testimonials_slider_dots button::before {
+  content: "";
+  width: 100%;
+  height: 3px;
+  background-color: #B3B7BC;
+  border-radius: 3px;
+}
+
+.testimonials_slider_dots .slick-active button::before{
+  background-color: #424551;
+  transition: all 3s;
+}
+
+/* "Testimonials" Section - End -------------------------------- */
+
+
+/* "Best Job for you" Section - Start----------------------------- */
+
+.best_job_for_you {
+  margin-top: 195px;
+  background: #F4F5F6;
+}
+
+/* "Best Job" Block Two--------------------------------------------- */
+.best_job_block_two {
+  margin-top: 60px;
+}
+/* "Best Job" Block Two - Grid --------------------------------------- */
+.best_job_block_two_grid {
+  display: grid;
+  grid-template: 1fr 1fr/ repeat(6,1fr);
+  gap: 40px 100px;
+}
+
+.best_job_grid_items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  filter: opacity(20%) grayscale();
+  transition: all 1.3s;
+}
+
+.best_job_grid_items:hover {
+  filter: none;
+
+}
+
+.best_job_grid_items img {
+  width: 100%;
+  height: 100%;
+
+}
+
+.best_job_grid_items_link {
+  display: block;
+}
+
+/* "Best Job for you" Section - End----------------------------- */
+
+
+/* "Course program" Section - Start --------------------------------- */
+.course_program {
+  margin-top: 269px;
+}
+
+/* "Course program" - Block Two ------------------------------*/
+.coures_program_block_two {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* "Course program" - Block Two - Part Left --------------------------- */
+.coures_block_two_part_left {
+  max-width: 600px;
+  margin-top: 60px;
+}
+
+
+.course_acc_line {
+  margin-top: 24px;
+}
+
+.course_acc_line_link {
+  display: block;
+  padding-left: 40px;
+}
+
+.course_acc_line:first-child {
+  margin-top: 0px;
+}
+
+.course_acc_line_titel {
+  color: #1E212C;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 150%;
+  position: relative;
+}
+
+.course_acc_line_titel span {
+  color: #FF3F3A;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 150%;
+  padding-right: 8px;
+}
+
+.course_acc_line_text {
+  margin-top: 16px;
+  color: #424551;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+.course_acc_line_titel::before,
+.course_acc_line_titel::after {
+  content: "";
+  width: 18px;
+  height: 2px;
+  border-radius: 2px;
+  background-color: #FF3F3A;
+  position: absolute;
+  top: 50%;
+  left: -40px;
+
+}
+
+.course_acc_line_titel::after {
+  transform: rotate(90deg);
+  transition: all .3s;
+}
+
+.course_acc_line_link_active .course_acc_line_titel::after {
+  transform: rotate(0deg);
+}
+
+
+/* "Course program" - Block Two - Part Right----------------------------- */
+.coures_block_two_part_right {
+  display: flex;
+  align-items: flex-start;
+  padding-left: 15px;
+}
+
+.coures_block_two_part_right_img {
+  transform: translateY(-5%);
+}
+
+/* "Course program" Section - End --------------------------------- */
+
+
+/* "Our blog" Section - Start --------------------------------------- */
+.our_blog {
+  margin-top: 186px;
+}
+
+
+/* "Our blog" Block One */
+.our_blog_block_one { 
+  display: flex;
+  justify-content: space-between;
+}
+
+.our_blog_block_one_part_right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+/* Oure blog" Block Two -----------------------------------------------*/
+
+.our_blog_block_two {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+
+}
+/* <!-- "Oure blog" Block Two Infor Part------------------------------ */
+
+.our_blog_block_two_infor_parts {
+  width: 390px;
+}
+
+.our_blog_block_two_infor_parts:hover {
+  box-shadow: 0px 4px 80px 30px rgba(30, 33, 44, 0.03), 0px 12px 10px -6px rgba(154, 156, 165, 0.04), 0px 30px 24px -10px rgba(154, 156, 165, 0.05), 0px 80px 80px -20px rgba(154, 156, 165, 0.08);
+
+}
+
+.our_blog_block_two_infor_parts:nth-child(2) {
+  margin: 0 15px;
+}
+
+
+
+.blog_infor_parts_img {
+  position: relative;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+
+.blog_infor_parts_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.blog_infor_parts_img_button {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  color: #424551;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  padding: 1px 8px;
+  padding-left: 28px;
+  border-radius: 4px;
+  background:  #FFF;
+  transition: all .3s;
+}
+
+.btn_podcast::before {
+  content: "";
+  width: 16px;
+  height: 16px;
+  background: url("../imges/main/our_blog/microphone.svg") 0 0 / 100% no-repeat;
+  position: absolute;
+  top: 3px;
+  left: 8px;
+}
+
+.btn_video::before {
+  content: "";
+  width: 16px;
+  height: 16px;
+  background: url("../imges/main/our_blog/Video.svg") 0 0 / 100% no-repeat;
+  position: absolute;
+  top: 3px;
+  left: 8px;
+}
+
+.btn_article::before {
+  content: "";
+  width: 16px;
+  height: 16px;
+  background: url("../imges/main/our_blog/Files.svg") 0 0 / 100% no-repeat;
+  position: absolute;
+  top: 3px;
+  left: 8px;
+}
+
+
+.blog_infor_parts_inform {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 16px;
+  flex-wrap: wrap;
+}
+
+.parts_inform_dividing_line {
+  display: block;
+  width: 1px;
+  height: 12px;
+  background: #787A80;
+  margin: 0 12px;
+}
+
+.infor_parts_inform_directions,
+.infor_parts_inform_date,
+.infor_parts_inform_time {
+  color: #787A80;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.infor_parts_inform_directions {
+  font-weight: 700;
+}
+
+.infor_parts_inform_date {
+  position: relative;
+  margin-left: 24px;
+}
+
+.infor_parts_inform_date::before {
+  content: "";
+  width: 16px;
+  height: 16px;
+  background: url("../imges/main/our_blog/Calendar.svg") 0 0 / 100% no-repeat;
+  position: absolute;
+  top: 2px;
+  left: -24px;
+}
+
+.infor_parts_inform_time {
+  position: relative;
+  margin-left: 24px;
+}
+
+.infor_parts_inform_time::before {
+  content: "";
+  width: 16px;
+  height: 16px;
+  background: url("../imges/main/our_blog/Clock.svg") 0 0 / 100% no-repeat;
+  position: absolute;
+  top: 2px;
+  left: -24px;
+}
+
+.blog_infor_parts_text_titel {
+  margin-top: 8px;
+  color: #1E212C;
+  font-size: 20px;
+  line-height: 150%;
+  flex-grow: 1;
+}
+
+.blog_infor_parts_text_text {
+  margin-top: 8px;
+  color: #424551;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+.blog_infor_parts_text_link {
+  display: inline-block;
+  margin-top: 16px;
+  color:#1E212C;
+  font-weight: 700;
+  line-height: 160%;
+  position: relative;
+}
+
+.blog_infor_parts_text_link::after {
+  content: "";
+  width: 24px;
+  height: 24px;
+  background: url("../imges/main/our_blog/Right.svg") 0 0 / 100% no-repeat;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: -32px;
+}
+
+.blog_infor_parts_text_link:hover {
+  color: #FF3F3A;
+}
+
+/* "Our blog" Section - End --------------------------------------- */
+
+
+
+/* "Contact Info" Section - Start----------------------------------- */
+.conatact_info {
+  margin-top: 213px;
+}
+/* "Contact Info" Block One ------------------------------------------ */
+.conatact_info_block_one {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* "Contact Info" Block One Part Left------------------------------------ */
+.info_block_one_part_left {
+  margin-right: 15px;
+}
+
+/* "Contact Info" Block One Part Left - Contacts ----------------------- */
+.block_one_part_left_contacts {
+  margin-top: 40px;
+}
+
+.part_left_contacts_information {
+  margin-top: 24px;
+  color: #1E212C;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 150%;
+  display: flex;
+  align-items: flex-start;
+  transition: all .3s;
+}
+
+.part_left_contacts_information:hover {
+  color: #F75E05;
+}
+
+.part_left_contacts_information img {
+  margin-right: 12px;
+}
+
+.part_left_contacts_information span {
+  color: #787A80;
+  font-size: 14px;
+  line-height: 150%;
+}
+
+.part_left_contacts_information:first-child {
+  margin-top: 0px;
+}
+
+
+/* "Contact Info" Block One Part Left - Follow us */
+.block_one_part_left_follow_us {
+  margin-top: 48px;
+}
+
+.block_one_part_left_follow_us h3 {
+  color: #1E212C;
+  line-height: 150%;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.block_one_part_left_follow_us_img {
+  margin-top: 24px;
+}
+
+.block_one_part_left_follow_us_img a {
+  display: inline-block;
+  margin-right: 32px;
+}
+
+.block_one_part_left_follow_us_img a:last-child {
+  margin-right: 0px;
+}
+
+.block_one_part_left_follow_us_img a path {
+  transition: all .3s;
+}
+
+.block_one_part_left_follow_us_img_link:hover  path {
+  fill: #000;
+}
+
+
+/* "Contact Info" Block One Part Right --------------------------------- */
+.info_block_one_part_right {
+  width: 705px;
+  height: 412px;
+  margin-top: auto;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0px 4px 4px -4px rgba(30, 33, 44, 0.03), 0px 12px 10px -6px rgba(154, 156, 165, 0.04), 0px 30px 24px -10px rgba(154, 156, 165, 0.05), 0px 80px 80px -20px rgba(154, 156, 165, 0.08);
+}
+
+.info_block_one_part_right_map {
+  width: 100%;
+  height: 100%;
+}
+
+/* "Contact Info" Section - End----------------------------------- */
+
+/* Any questions?" Section - Start ------------------------------- */
+.any_questions {
+  margin-top: 180px;
+  margin-bottom: 180px;
+}
+/* Any questions?" Block One ---------------------------- */
+.questions_block_one {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* "Any questions?" Block One Part Left -------------------------- */
+.questions_block_one_part_left {
+  padding-top: 50px;
+  margin-right: 15px;
+  max-width: 435px;
+}
+
+.questions_block_one_part_left_img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+
+/* "Any questions?" Block One Part Right -------------------------- */
+.questions_block_one_part_right {
+  width: 705px;
+}
+
+/* Any questions?" Block One Part Right - Forme */
+.questions_block_one_part_right_frome {
+  margin-top: 40px;
+}
+
+
+.part_right_frome_contaner {
+
+}
+
+.questions_label {
+  color:  #424551;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+.questions_text_frome {
+  margin-top: 8px;
+  width: 340px;
+  height: 52px;
+  padding: 13px 18px;
+  border-radius: 4px;
+  border: 1px solid #D7DADD;
+  background: #FFF;
+}
+
+.questions_text_frome_massage {
+  margin-top: 8px;
+  width: 705px;
+  height: 128px;
+  padding: 13px 18px;
+  border-radius: 4px;
+  border: 1px solid  #D7DADD;
+  background: #FFF;
+  resize: none;
+}
+
+.questions_text_frome::placeholder {
+  color:  #9A9CA5;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+.questions_text_frome_massage::placeholder {
+  color:  #9A9CA5;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+
+.questions_block_one_part_right_frome {
+  display: grid;
+  grid-template: 86px 86px 162px / 340px 340px ;
+  grid-gap: 24px 25px;
+}
+
+.part_right_frome_contaner_message {
+  grid-row: 3 / 4;
+  grid-column: 1 / 3;
+}
+
+.questions_buttons {
+  margin-top: 48px;
+  display: flex;
+}
+
+.questions_button_agree,
+.questions_button_send_message {
+  width: 50%;
+}
+
+.questions_button_send_message {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.questions_button_agree {
+  display: flex;
+  position: relative;
+}
+
+
+.questions_button_send_message button {
+  width: 340px;
+}
+
+.questions_button_agree label {
+  color: #424551;
+  font-weight: 400;
+  line-height: 160%;
+  display: block;
+  margin-left: 28px;
+
+}
+
+
+
+input[type=checkbox]{
+  width: 16px;
+  height: 16px;
+  accent-color: #FF3F3A;
+  position: absolute;
+  top: 5px;
+  left: 0px;
+  transition: all .3s;
+  cursor: pointer;
+}
+
+
+/* Any questions?" Section - End ------------------------------- */
+
+/*  WEBSITE MAIN END ----------------------------------------- */
+
+
+/* WEBSITE FOOTER START ---------------------------------------- */
+.website_footer {
+  width: 100%;
+  overflow: hidden;
+}
+
+/* "Footer" Section One --------------------------------------------- */
+.footer_section_one {
+  width: 100%;
+  background: #1E212C;
+}
+
+/* "Footer" Section Border One ------------------------------------- */
+.footer_section_border_one {
+  max-width: 1260px;
+  padding: 0px 15px;
+  margin: 0px auto;
+  display: flex;
+}
+
+/* "Footer" Section Border One Block One ------------------------------*/
+.footer_section_one_block_one {
+  margin-top: 80px;
+  margin-bottom: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* "Footer" Section One Block One - Createx */
+.footer_section_one_block_one_createx {
+  width: 279px;
+  margin-right: 15px;
+}
+
+.footer_createx_text {
+  margin-top: 24px;
+  color: #FFF;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.footer_createx_media_links {
+  margin-top: 38px;
+}
+
+.footer_media_link {
+  margin-right: 20px;
+}
+
+.footer_media_link:last-child{
+  margin-right: 0px;
+}
+
+.footer_media_link:hover path {
+  fill: #FF3F3A;
+}
+
+/* "Footer Central Container" -------------------- */
+.footer_central_container {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+/* "Footer" Section One Block One - Site Map */
+.footer_section_one_block_one_site_map {
+  margin-right: 15px;
+}
+
+.footer_list_titels {
+  color: #FFF;
+  line-height: 150%;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.footer_section_one_block_one_newsletter h6 {
+  white-space: pre-line;
+}
+
+
+.footer_line_style {
+  color: #6f6969;
+  font-weight: 400;
+  line-height: 160%;
+  margin-top: 12px;
+}
+.footer_line_link {
+  transition: all .3s;
+  white-space: nowrap;
+}
+
+
+.footer_line_link:hover {
+  color:#fff;
+}
+
+
+/* "Footer" Section One Block One - Courses */
+.footer_section_one_block_one_courses {
+  margin-right: 15px;
+}
+
+/* "Footer" Section One Block One - Contact Us */
+.footer_section_one_block_one_contact_us {
+  margin-right: 15px;
+}
+
+.footer_contact_us_tel, 
+.footer_contact_us_email {
+  margin-left: 24px;
+  display: block;
+  position: relative;
+}
+
+.footer_contact_us_tel::before {
+  content: "";
+  width: 16px;
+  height: 16px;
+  background: url(../imges/footer/footer_section_one/Phone.svg) 0 0 no-repeat;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -24px;
+}
+
+.footer_contact_us_email::before {
+  content: "";
+  width: 16px;
+  height: 16px;
+  background: url(../imges/footer/footer_section_one/Mail.svg) 0 0 no-repeat;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -24px;
+}
+
+/* "Footer" Section One Block One - Newsletter */
+.footer_section_one_block_one_newsletter {
+  width: 286px;
+  
+}
+
+
+.footer_newsletter_form {
+  margin-top: 24px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 36px;
+  padding: 9px 12px;
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.20);
+  background: rgba(255, 255, 255, 0.12);
+  
+  
+}
+
+.footer_newsletter_email {
+  background: transparent;
+  color: #FFF;
+  width: 100%;
+  
+}
+
+.newsletter_email_btn {
+  background: transparent;
+  margin-left: 12px;
+  border-radius: 4px;
+  transition: all .3s;
+}
+
+.newsletter_email_btn:hover {
+  background: #F75E05;
+  transform: scale(1.2);
+}
+
+
+.newsletter_email_btn::after {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: url("../imges/footer/footer_section_one/Right.svg") 0 0 / 100% 100% no-repeat;
+
+}
+
+
+
+.footer_newsletter_email::placeholder {
+  color: #FFF;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 150%;
+  opacity: 0.6;
+}
+
+
+
+.footer_newsletter_text {
+  margin-top: 12px;
+  color: #FFF;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+
+/* "Footer" Section Two ------------------------------------------------ */
+.footer_section_two {
+  width: 100%;
+  padding: 20px 0px;
+  background: #1E212C;
+  opacity: 0.5;
+}
+
+/* "Footer" Section Border Tow ------------------------------------- */
+
+.footer_section_border_two {
+  max-width: 1260px;
+  height: 100%;
+  padding: 0px 15px;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* "Footer" Section Two Part Left ---------------------------------------- */
+.footer_section_two_part_left {
+  color: #FFF;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.footer_section_two_part_left span {
+  margin: 0 2px;
+}
+
+/* "Footer" Section Two Part Right ---------------------------------------- */
+.footer_section_two_part_right {
+  color: #FFF;
+  font-size: 14px;
+  line-height: 150%;
+}
+
+/* WEBSITE FOOTER END --------------------------------------------*/
+
+/* ========================= "Media Queries" - START ===================== */
+/* ========================= "Media Queries" - START ===================== */
+
+/* ----------------------------- Width Size: 1260 px ---------------------- */
+
+/* "Main Direction Start -------------------------------------------" */
+@media (max-width: 1260px) {
+  .main_directions_courses_item {
+    width: 330px;
+    height: 420px;
+  
+}
+.our_main_directions_courses {
+  justify-items: center;
+}
+
+}
+
+
+/* "Main Direction End -------------------------------------------" */
+
+
+/* ----------------------------- Width Size: 1200 px ---------------------- */
+
+@media (max-width: 1200px) {
+  /* "Header" Start ---------------------------------------------------- */
+  .header_block_center_left_part_title {
+    font-size: 50px;
+    max-width: 361px;
+  }
+
+  .header_block_center_right_part img{
+    max-width: 500px;
+  }
+  /* "Header" End ---------------------------------------------------- */
+
+
+  /* "Testimonials" Start ---------------------------------------------*/
+  .testimonials_slide {
+    margin: 64px 64px;
+  }
+
+  .testimonials_slider {
+    max-width: 800px;
+  }
+  /* "Testimonials" End---------------------------------------------*/
+
+
+  /* "Best Job for you" Start --------------------------------------- */
+  .best_job_block_two_grid {
+    gap: 40px 50px;
+  }
+  
+  /* "Best Job for you" End --------------------------------------- */
+
+/* "Any questions?" Start ----------------------------------------- */
+
+
+
+/* "Any questions?" End ----------------------------------------- */
+
+}
+
+
+/* ----------------------------- Width Size: 1100 px ---------------------- */
+
+@media (max-width:1100px) {
+  /* "Header" Menu Start ---------------------------------------------------- */
+  .burger_manue {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 5px;
+    right: 5px;
+    z-index: 101;
+    background-color: #a8eddf;
+    width: 45px;
+    height: 45px;
+    border-radius: 30%;
+    box-shadow: 0 0 5px 1px #000;
+    transition: all .3s;
+  }
+
+  .burger_manue_open {
+    background-color: #fff;
+    box-shadow: 0 0 0px 0px #000;
+  }
+
+  .burger_manu_span {
+    display: block;
+    width: 30px;
+    height: 5px;
+    background-color: #424551;
+    border-radius: 3px;
+    margin: 3px 0 ;
+    transition: all .3s;
+  }
+
+  .burger_manu_span_open{
+    margin: -5px 0 ;
+    transform: rotate(90deg);
+  }
+
+  .burger_manue::before,
+  .burger_manue::after{
+    content: "";
+    display: block;
+    width: 30px;
+    height: 5px;
+    background-color: #424551;
+    border-radius: 3px;
+    
+  }
+
+  .overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #69696976;
+    z-index: 99;
+    transition: all .3s;
+    visibility: hidden;
+    opacity: 0;
+  }
+  
+  .overlay_open {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+
+  .header_border {
+    margin-top: 43px;
+  }
+
+  .header_block_top {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    flex-direction: column;
+    background-color: #fff;
+    z-index: 100;
+    padding: 100px 0 ;
+    margin-top: 0;
+    min-width: 320px;
+    transform: translateX(100%);
+    transition: all .3s;
+  }
+
+  .header_block_top_open {
+    transform: translateX(0%);
+    box-shadow: 0px 0px 0px 0px #000;
+  }
+  
+  .header_block_top_logo {
+    padding: 0;
+  }
+
+  .header_block_top_navigation_list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header_block_top_navigation {
+    margin: 0 auto;
+  }
+
+  .header_block_top_navigation_list_link {
+    padding: 0;
+  }
+
+  .header_block_top_navigation_list_link a {
+    display: block;
+    padding: 30px;
+  }
+
+  .header_block_top_buttons {
+    flex-direction: column-reverse;
+  }
+  
+  .header_block_top_buttons_contaner_one {
+    padding: 0;
+    margin-top: 30px;
+    
+  }
+  /* "Header" Menu End ---------------------------------------------------- */
+
+
+  /* "About Us" Start-------------------------------------------------*/
+  .about_us_block_one_part_right img {
+    max-width: 400px;
+    height: auto;
+    object-fit: contain;
+  }
+
+  .line_two_sec_titel {
+    font-size: 40px;
+  }
+
+  /* "About Us" End-------------------------------------------------*/
+
+/* "Main Direction Start -------------------------------------------" */
+  .our_main_directions_courses {
+    display: grid;
+    grid-template: 1fr 1fr 1fr/ 1fr 1fr;
+    grid-gap: 15px 15px ;
+    justify-items: center;
+    margin-top: 57px;
+}
+
+.main_directions_courses_item {
+  width: 390px;
+  height: 420px;
+}
+
+.our_main_directions_filter {
+  justify-content: center;
+}
+
+/* "Main Direction End -------------------------------------------" */
+
+/* "Createx Certificate" Start ----------------------------------------- */
+.createx_certificate_block_one_part_left_pictures_contaner {
+  display: flex;
+  flex-direction: column;
+}
+
+.createx_certificate_block_one_part_left_pictures_img {
+  display: block;
+  width: 105px;
+  height: 50px;
+  margin-right: 0;
+}
+
+.createx_certificate_block_one_part_right {
+  width: 550px;
+  height: 100%;
+}
+
+.createx_certificate_block_one_part_right_img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+/* "Createx Certificate" End ----------------------------------------- */
+
+/* "Course program" Start ----------------------------- */
+.coures_block_two_part_right_img {
+  max-width: 395px;
+  max-height: auto;
+}
+
+/* "Course program" End ----------------------------- */
+
+
+/* Oure blog" Start -----------------------------------------------*/
+.blog_infor_parts_inform {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.parts_inform_dividing_line {
+  display: none;
+}
+/* Oure blog" End -----------------------------------------------*/
+
+
+/* "Any questions?" Start ----------------------------------------- */
+
+
+
+/* "Any questions?" End ----------------------------------------- */
+
+}
+
+/* ----------------------------- Width Size: 1000 px ---------------------- */
+
+@media (max-width: 1000px) {
+
+
+  /* "Best Job for you" Start --------------------------------------- */
+  .best_job_block_two_grid {
+    grid-template: 1fr 1fr 1fr/ repeat(4,1fr);
+    gap: 30px 30px;
+  }
+  
+  /* "Best Job for you" End --------------------------------------- */
+
+
+/* Contact Info Start ----------------------------------- */
+.block_one_part_left_follow_us_img a {
+  margin-right: 15px;
+}
+/* Contact Info End ----------------------------------- */
+
+/* "Footer" Start --------------------------------------- */
+.footer_section_one_block_one {
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer_section_one_block_one_createx {
+  margin-right: 0;
+}
+
+.footer_createx_logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.footer_central_container {
+  margin-top: 30px;
+  width: 100%;
+}
+
+.footer_section_one_block_one_contact_us {
+  margin-right: 0;
+}
+
+.footer_section_one_block_one_newsletter {
+  margin-top: 30px;
+}
+
+
+/* "Footer" End --------------------------------------- */
+
+
+
+}
+
+
+/* ----------------------------- Width Size: 900 px ---------------------- */
+
+@media (max-width: 900px) {
+  .line_two_sec_titel {
+    text-align: center;}
+  .line_one_sec_titel {
+    text-align: center;
+  }
+  
+/* "Header" Start ---------------------------------------------------- */
+  .header_block_center_right_part {
+    display: none;
+  }
+
+  .header_block_center {
+    justify-content: center;
+  }
+
+  .header_block_center_left_part_title {
+    font-size: 60px;
+    max-width: 470px;
+    text-align: center;
+}
+
+.header_block_bottom {
+  display: none;
+}
+
+.header_block_center_left_part_buttons {
+  justify-content: center;
+}
+/* "Header" End ---------------------------------------------------- */
+
+
+/* "About Us" Start -------------------------------------------------*/
+.about_us_section {
+  margin-top: 100px;
+}
+
+.about_us_block_one_part_right {
+  display: none;
+}
+
+.about_us_block_one_part_left {
+  margin: 0 auto;
+  width: 410px;
+}
+
+.block_one_part_left_text_one {
+  margin-top: 50px;
+}
+
+.about_us_block_one_part_left_buttons {
+  margin-top: 30px;
+}
+
+.about_us_block_two {
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+.about_us_block_two_part_left {
+  margin: 0 auto;
+  width: 410px;
+  height: auto;
+}
+
+.about_us_block_two_part_left img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+
+}
+
+
+.about_us_block_two_part_right {
+  margin: 30px auto 0 auto;
+}
+
+.about_us_block_two_part_right_list_line {
+  margin: 0;
+}
+/* "About Us" End-------------------------------------------------*/
+
+/* "Our Main Directions" Start ---------------------- */
+.our_main_directions {
+  margin-top: 100px;
+} 
+
+.our_main_directions_filter {
+  margin-top: 50px;
+}
+.our_main_directions_courses {
+  margin-top: 50px;
+}
+
+
+/* "Our Main Directions" End ---------------------- */
+
+/* "Createx Certificate" Start ----------------------------------------- */
+.createx_certificate {
+  margin-top: 100px;
+}
+
+.createx_certificate_block_one {
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.createx_certificate_block_one_part_left {
+  margin: 0;
+  padding: 0;
+}
+
+.createx_certificate_block_one_part_left_titel{
+  margin-right:0px ;
+}
+
+.createx_certificate_titel{
+  margin: 0 auto;
+}
+
+.createx_certificate_block_one_part_left_text {
+  margin: 50px auto 0px;
+}
+
+.createx_certificate_block_one_part_left_pictures_contaner {
+  margin-top: 30px;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.createx_certificate_block_one_part_left_pictures_img {
+  margin-right: 15px;
+}
+
+.createx_certificate_block_one_part_left_pictures_img:last-child {
+  margin-right: 0px;
+}
+
+.createx_certificate_block_one_part_right {
+  margin-top: 30px;
+  width: 410px;
+  max-height: auto;
+}
+
+.createx_certificate_block_one_part_right_img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+
+}
+
+/* "Createx Certificate" End ----------------------------------------- */
+
+/* "Meet our team" Start ------------------------------- */
+.meet_our_team {
+  margin-top: 100px;
+}
+
+.team_block_one {
+  flex-direction: column;
+}
+
+.team_block_one_titel {
+  width: 100%;
+}
+
+.team_block_one_buttoms_slider {
+  width: 100%;
+}
+
+.team_block_two {
+  margin-top: 50px;
+}
+/* "Meet our team" End ------------------------------- */
+
+/* "Testimonials" Start -------------------------------- */
+.testimonials {
+  margin-top: 100px;
+}
+
+.testimonials_block_two {
+  margin-top: 50px;
+}
+
+/* "Testimonials" End -------------------------------- */
+
+
+/* "Best Job for you" Start --------------------------- */
+.best_job_for_you {
+  margin-top: 100px;
+}
+
+.best_job_block_two {
+  margin-top: 50px;
+}
+
+/* "Best Job for you" End --------------------------- */
+
+
+
+/* "Course program" Start ----------------------------- */
+.course_program {
+  margin-top: 100px;
+}
+
+.coures_block_two_part_left {
+  margin-top: 50px;
+}
+
+.coures_block_two_part_right {
+  display: none;
+  
+}
+
+.coures_program_block_two {
+  justify-content: center;
+}
+/* "Course program" End ----------------------------- */
+
+/* Oure blog" Start -----------------------------------------------*/
+.our_blog {
+  margin-top: 100px;
+}
+
+.our_blog_block_one {
+  flex-direction: column;
+}
+
+.our_blog_block_two {
+  margin-top: 50px;
+}
+
+/* Oure blog" End -----------------------------------------------*/
+
+/* "Contact Info" Start ---------------------------------- */
+.conatact_info {
+  margin-top: 100px;
+}
+
+/* "Contact Info" End ---------------------------------- */
+
+
+/* "Any questions?" Start ----------------------------------- */
+.any_questions {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.questions_block_one_part_left {
+  display: none;
+}
+
+.questions_block_one {
+  justify-content: center;
+}
+
+/* "Any questions?" End ----------------------------------- */
+
+}
+
+/* ----------------------------- Width Size: 820 px ---------------------- */
+
+@media (max-width:820px){
+
+  /* "Main Direction Start -------------------------------------------" */
+  .our_main_directions_filter_list_item {
+    margin-right: 10px;
+  }
+
+  .our_main_directions_courses {
+    grid-template: 1fr 1fr 1fr 1fr/ 1fr;
+    grid-gap: 15px 15px ;
+    justify-items: center;
+}
+/* "Main Direction End -------------------------------------------" */
+
+
+/* Oure blog" Start -----------------------------------------------*/
+.our_blog_block_two {
+  flex-direction: column;
+  align-items: center;
+}
+
+.our_blog_block_two_infor_parts:nth-child(2) {
+  margin: 0;
+}
+
+.our_blog_block_two_infor_parts {
+  margin-bottom: 15px;
+}
+
+.our_blog_block_two_infor_parts:last-child {
+  margin-bottom: 0px;
+}
+
+.our_blog_block_one_part_right {
+  justify-content: center;
+  margin-top: 15px;
+}
+
+/* Oure blog" End -----------------------------------------------*/
+
+
+/* Oure blog" Start -----------------------------------------------*/
+
+.blog_infor_parts_inform {
+  flex-direction: row;
+  align-items: center;
+}
+
+.parts_inform_dividing_line {
+  display: block;
+}
+/* Oure blog" End -----------------------------------------------*/
+
+
+
+
+/* Contact Info Start ----------------------------------- */
+.conatact_info_block_one {
+  flex-direction: column;
+  align-items: center;
+}
+
+.info_block_one_part_left {
+  margin-right: 0px;
+}
+
+.block_one_part_left_follow_us {
+  text-align: center;
+}
+
+.block_one_part_left_follow_us_img a {
+  margin-right: 32px;
+}
+
+
+.info_block_one_part_right {
+  width: 410px;
+  height: 300px;
+  margin-top: 30px;
+}
+/* Contact Info End ----------------------------------- */
+
+}
+/* ----------------------------- Width Size: 740 px ---------------------- */
+@media (max-width:740px) {
+
+  /* "Any questions?" Start ------------------------------------------- */
+  .questions_block_one_part_right_frome {
+    display: grid;
+    grid-template: 86px 86px 86px 86px 162px / 340px ;
+    grid-gap: 24px 25px;
+  }
+  
+  .part_right_frome_contaner_message {
+    grid-row: 5 / 6;
+    grid-column: 1 / 2;
+  }
+  
+  .questions_text_frome_massage {
+    width: 340px;
+  }
+
+  .questions_block_one_part_right_frome {
+    justify-content: center;
+  }
+
+  .questions_buttons {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+  }
+  
+
+  .questions_button_agree {
+    width: 340px;
+  }
+
+  .questions_button_send_message {
+    margin-top: 15px;
+    width: 340px;
+  }
+
+  /* "Any questions?" End ------------------------------------------- */
+}
+
+
+/* ----------------------------- Width Size: 600 px ---------------------- */
+
+@media (max-width:600px) {
+
+  /* "Best Job for you" Start --------------------------------------- */
+  .best_job_block_two_grid {
+    grid-template: 1fr 1fr 1fr 1fr/ repeat(3,1fr);
+    gap: 15px 15px;
+  }
+  
+  /* "Best Job for you" End --------------------------------------- */
+
+
+  }
+
+/* ----------------------------- Width Size: 480 px ---------------------- */
+
+@media (max-width:480px) {
+  
+  /* "Header" Menu Start ---------------------------------------------------- */
+  .header_block_top {
+    min-width: 100%;
+    padding: auto 0 ;
+  }
+  
+  .header_block_top_navigation_list_link a {
+    padding: 10px;
+    transition: all .3s;
+  }
+  /* "Header" Menu End ---------------------------------------------------- */
+  
+  /* "Header" Start ---------------------------------------------------- */
+  .header_block_center_left_part_title {
+    font-size: 50px;
+    max-width: 470px;
+    text-align: center;
+  }
+  /* "Header" End ---------------------------------------------------- */
+
+  /* "About Us" Start -------------------------------------------------*/
+  .about_us_block_one_part_left {
+    margin: 0 auto;
+    width: 350px;
+  }
+
+  .about_us_block_one_part_left_buttons {
+    flex-direction: column;
+    margin-top: 0;
+  }
+  .explore_events_btn {
+    margin-right: 0;
+    margin: 30px 0;
+  }
+
+  .about_us_block_two_part_left {
+    max-width: 350px;
+    height: auto;
+  }
+
+  .about_us_block_two_part_left img {
+    width: 100%;
+    height: 100%;
+  }
+
+  /* "About Us" End -------------------------------------------------*/
+
+  /* "Createx Certificate" Start ----------------------------------------- */
+  .createx_certificate_block_one_part_left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .createx_certificate_block_one_part_left_text {
+    margin-right: 0;
+  }
+
+  
+  .createx_certificate_block_one_part_right {
+    width: 350px;
+    height: auto;
+  }
+  
+  .createx_certificate_block_one_part_right_img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  /* "Createx Certificate" End ----------------------------------------- */
+
+
+  /* "Meet our team" Start ------------------------------- */
+  
+  .team_block_one_buttoms_slider {
+    margin-top: 15px;
+  }
+  /* "Meet our team" End ------------------------------- */
+
+
+  /* "Testimonials" Start ------------------------------------ */
+.testimonials_arrow {
+  display: none;
+}
+
+
+.testimonials_slide {
+  margin: 64px auto;}
+
+  
+.testimonials_slide_part_one img {
+  width: 15px;
+  height: auto;
+  margin-right: 10px;
+}
+  /* "Testimonials" End ------------------------------------ */
+
+
+/* Oure blog" Start -----------------------------------------------*/
+  .our_blog_block_two_infor_parts {
+    max-width: 288px;
+  }
+
+  .blog_infor_parts_inform {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .parts_inform_dividing_line {
+    display: none;
+  }
+/* Oure blog" End -----------------------------------------------*/
+
+/* Contact Info Start ----------------------------------- */
+
+.info_block_one_part_right {
+  width: 350px;
+  height: 250px;
+  margin-top: 30px;
+}
+/* Contact Info End ----------------------------------- */
+  
+}
+
+/* ----------------------------- Width Size: 430 px ---------------------- */
+@media (max-width: 430px) {
+  /* "Main Direction Start -------------------------------------------" */
+  .main_directions_courses_item {
+    width: 290px;
+    height: 420px;
+  
+}
+.our_main_directions_courses {
+  justify-items: center;
+}
+/* "Main Direction End -------------------------------------------" */
+
+
+  /* "Best Job for you" Start --------------------------------------- */
+  .best_job_block_two_grid {
+    grid-template: 1fr 1fr 1fr 1fr 1fr/ repeat(2,1fr);
+    gap: 15px 15px;
+  }
+  
+  /* "Best Job for you" End --------------------------------------- */
+
+/* "Footer" Start ----------------------------------------------- */
+
+
+.footer_central_container {
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer_section_one_block_one_site_map,
+.footer_section_one_block_one_courses {
+  margin-right: 0;
+  text-align: center;
+}
+
+.footer_section_one_block_one_contact_us {
+  text-align: center;
+}
+
+.footer_section_one_block_one_courses,
+.footer_section_one_block_one_contact_us {
+  margin-top: 15px;
+}
+
+.footer_section_border_two {
+  flex-direction: column;
+}
+
+.footer_section_two_part_right {
+  margin-top: 15px;
+}
+
+
+/* "Footer" End ----------------------------------------------- */
+
+}
+
+
+
+
+/* ----------------------------- Width Size: 390 px ---------------------- */
+@media (max-width:390px) {
+  .line_two_sec_titel {
+    font-size: 35px;
+  }
+
+  /* "Header" Start ---------------------------------------------------- */
+  .header_block_center_left_part_title {
+    font-size: 39px;
+    max-width: 290px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .header_block_center_left_part {
+    max-width: 100vw;
+    justify-content: center;
+    align-items: center;
+  }
+
+.header_block_center_left_part {
+  flex-grow: 1;
+}
+
+.header_block_center_left_part_buttons {
+  flex-direction: column;
+  margin: 0;
+}
+
+.header_block_center_left_part_button_about_us {
+  margin-right: 0;
+  margin: 30px 0px;
+}
+
+.header_block_center_left_part_play_showreel {
+  display: none;
+}
+
+.header_border {
+  margin-top: 50px;
+}
+
+.header_block_center {
+  margin: auto 0;
+}
+  /* "Header" End ---------------------------------------------------- */
+
+  /* "About Us" Start -------------------------------------------------*/
+
+
+  .about_us_block_two_part_left {
+    max-width: 290px;
+    height: auto;
+  }
+
+  .about_us_block_two_part_left img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  /* "About Us" End -------------------------------------------------*/
+
+  /* "Createx Certificate" Start ----------------------------------------- */
+    .createx_certificate_block_one_part_left_pictures_contaner {
+      flex-direction: column;
+    }
+    .createx_certificate_block_one_part_left_pictures_contaner img {
+      margin-right: 0px;
+    }
+
+
+    .createx_certificate_block_one_part_right {
+      width: 290px;
+      height: auto;
+    }
+    
+    .createx_certificate_block_one_part_right_img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  
+/* "Createx Certificate" End ----------------------------------------- */
+
+/* "Course program" Start ----------------------------- */
+.course_acc_line_titel {
+  font-size: 16px;
+
+}
+/* "Course program" End ----------------------------- */
+
+/* "Our blog" Start ---------------------------------------- */
+
+.our_blog_block_one_part_right button {
+  flex-grow: 1;
+}
+
+/* "Our blog" End ---------------------------------------- */
+
+
+/* Contact Info Start ----------------------------------- */
+
+.block_one_part_left_follow_us_img a {
+  margin-right: 15px;
+}
+
+
+.info_block_one_part_right {
+  width: 290px;
+  height: 210px;
+  margin-top: 30px;
+}
+/* Contact Info End ----------------------------------- */
+
+  /* "Any questions?" Start ------------------------------------------- */
+  .questions_block_one_part_right_frome {
+    grid-template: 86px 86px 86px 86px 162px / 290px ;
+  }
+  .questions_text_frome {
+    width: 290px;
+  }
+  
+  .questions_text_frome_massage {
+    width: 290px;
+  }
+
+  .questions_button_agree {
+    width: 290px;
+  }
+
+  .questions_button_send_message {
+    width: 290px;
+  }
+  /* "Any questions?" End ------------------------------------------- */
+
+
+
+
+}
+
+/* ========================= "Media Queries" - END ===================== */
+/* ========================= "Media Queries" - END ===================== */
